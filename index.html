@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CanchaGo | Encuentra tu Cancha Ideal</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">Cancha<span>Go</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <span><i class="ri-menu-line"></i></span>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Canchas</a></li>
+            <li><a href="#">Reservas</a></li>
+            <li><a href="#">Estadísticas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="nav__btns">
+            <!-- Enlazamos los botones a las páginas de login y registro -->
+            <a href="register.html" class="btn sign__up">Registrarse</a>
+            <a href="login.html" class="btn sign__in">Iniciar Sesión</a>
+        </div>
+        
+    </nav>
+
+    <header class="header__container">
+        <div class="header__image">
+            <div class="header__image__card header__image__card-1">
+                <span><i class="ri-ball-line"></i></span>
+                Encuentra Canchas
+            </div>
+            <div class="header__image__card header__image__card-2">
+                <span><i class="ri-calendar-check-line"></i></span>
+                Reserva Fácil
+            </div>
+            <div class="header__image__card header__image__card-3">
+                <span><i class="ri-group-line"></i></span>
+                Gestiona Equipos
+            </div>
+            <img src="assets/atleta.png" alt="atleta" />
+        </div>
+        <div class="header__content">
+            <h1>¡JUEGA AHORA!<br />ENCUENTRA LA <span>CANCHA PERFECTA</span> PARA TI</h1>
+            <p>
+                Explora las mejores canchas, organiza tus equipos y asegura tu espacio de juego con CanchaGo - la plataforma ideal para los apasionados del fútbol.
+            </p>
+            <form action="/">
+                <div class="input__row">
+                    <div class="input__group">
+                        <h5>Ubicación</h5>
+                        <div>
+                            <span><i class="ri-map-pin-line"></i></span>
+                            <input type="text" placeholder="Barranquilla, Colombia" />
+                        </div>
+                    </div>
+                    <div class="input__group">
+                        <h5>Fecha</h5>
+                        <div>
+                            <span><i class="ri-calendar-2-line"></i></span>
+                            <input type="text" placeholder="17 Nov 2024" />
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Buscar</button>
+            </form>
+            <div class="bar">
+                Copyright © 2024 CanchaGo. Todos los derechos reservados.
+            </div>
+        </div>
+    </header>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
